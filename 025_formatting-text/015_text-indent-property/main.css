@@ -1,0 +1,26 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+}
+
+p {
+    margin: 20px;
+    min-width: 55px;
+    text-indent: 1rem;
+}
+
+p::first-letter {
+    font-family: cursive;
+    font-size: 2rem;
+    line-height: .5;
+}
+
+p::first-line {
+    font-family: cursive;
+    font-size: 1rem;
+    font-weight: bold;
+    font-style: italic;
+    text-shadow: 1px 1px 0px red;
+}
