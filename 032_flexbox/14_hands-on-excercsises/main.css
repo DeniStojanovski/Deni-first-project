@@ -1,0 +1,32 @@
+body {
+    display: flex;
+    /* align-items: stretch; */
+    flex-flow: column wrap;
+    justify-content: flex-start;
+    /* align-content: flex-end; */
+    /* formatting */
+    height: 800px;
+    /* width: 500px; */
+    margin: 1em;
+    background-color: grey;
+    color: yellow;
+    background-color: saddlebrown;
+    border: 10px solid black;
+}
+
+div {
+    flex-grow: 1;
+    /* formatting */
+    height: 100px;
+    width: 300px;
+    margin: 1em;
+    border: 5px solid green;
+    background-color: aqua;
+    text-align: center;
+}
+
+.five {
+    /* align-self: center; */
+}
+
+/* changing display flex up and taking out down prefs making difference */
