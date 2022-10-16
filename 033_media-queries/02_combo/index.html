@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="mq-600-899.css" media="(min-width: 600px) and (max-width: 899px)">
+    <link rel="stylesheet" href="mq-900-plus.css" media="(min-width: 900px)">
+    
+    <!-- this does NOT work, you can't have multiple media types -->
+    <link rel="stylesheet" href="multiple.css" media="screen and print and (min-width: 600px)">
+
+    <!-- this does work, you can put media all for all you need-->
+    <link rel="stylesheet" href="multiple.css" media="all and (max-width: 900)">
+</head>
+<body>
+
+    <h1>I am blue on 599px or less</h1>
+    <h1>I am red on 600px to 899px</h1>
+    <h1>I am green on 900px or more</h1>
+    
+</body>
+</html>
