@@ -1,0 +1,13 @@
+body {
+    min-width: 600px;
+}
+
+.one {
+    width: 40%;
+    order: 6;
+}
+
+.two {
+    width: 60%;
+    order: 5;
+}

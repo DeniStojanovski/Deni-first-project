@@ -1,0 +1,29 @@
+body {
+    font-weight: bold;
+}
+
+header, article, aside, footer {
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    background: tomato;
+}
+
+article {
+    text-align: left;
+    background-color: aquamarine;
+}
+
+.one {
+    background-color: bisque;
+}
+
+.two {
+    background-color: cornflowerblue;
+}
+
+footer {
+    background-color: dodgerblue;
+}

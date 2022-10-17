@@ -1,0 +1,13 @@
+body {
+    min-width: 800px;
+}
+
+.three {
+    width: 30%;
+    order: 1;
+}
+
+.four {
+    width: 70%;
+    order: 2;
+}
