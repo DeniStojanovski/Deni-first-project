@@ -1,0 +1,22 @@
+* {
+    border: 2px solid red;
+}
+
+div {
+    height: 100px;
+    width: 100px;
+    background-color: green;
+    color: blue;
+}
+
+#one {
+    position: relative;
+    bottom: 30px;
+    left: 30px;
+    /* formatting */
+    background-color: aqua;
+}
+
+#one {
+    /* position: static; */
+}

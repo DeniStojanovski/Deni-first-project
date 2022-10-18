@@ -1,0 +1,23 @@
+div {
+    border-radius: 5px;
+}
+
+#one {
+    margin-left: 20px;
+    /* formatting */
+    height: 2500px;
+    width: 150px;
+    background-color: aqua;
+    border: 4px dashed red;
+}
+
+#two {
+    position: fixed;
+    top: 100px;
+    left: 110px;
+    /* formatting */
+    height: 75px;
+    width: 75px;
+    background-color: aquamarine;
+    border: 2px solid black;
+}
