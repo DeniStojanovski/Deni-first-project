@@ -1,0 +1,28 @@
+body, div {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#atf {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+    /* formatting */
+    height: 100vh;
+    background-image: url(https://images.unsplash.com/photo-1569700946659-fe1941c71fe4?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dHJvcGljYWwlMjBwYXJhZGlzZXxlbnwwfHwwfHw%3D&w=1000&q=80);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    /* background-attachment: fixed; */
+}
+
+h1 {
+    font-size: 10rem;
+    text-align: center;
+    color: aqua;
+    /* offset-x / offset-y / blur-radius */
+    text-shadow: 1px salmon;
+}

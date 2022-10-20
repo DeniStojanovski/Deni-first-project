@@ -1,0 +1,9 @@
+body {
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuTmwd8MSFoTXKFYh1pdhn0JZg7O34_j_B1OhfVaid&s);
+    background-repeat: no-repeat;
+    background-size: 600px 100px;
+    /* you can do it in %
+       background-size: contain means the img is filled out with the element
+       background-size: cover means the img is gonna cover the element whole page
+    */
+}
