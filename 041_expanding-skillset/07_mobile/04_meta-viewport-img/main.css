@@ -1,0 +1,23 @@
+* {
+        /* disable font boosting */
+    /* max-height: 1000000px;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: none; */
+}
+
+html, body, p, img {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 2em;
+    background-image: url(../../../000_img/meee.PNG);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
