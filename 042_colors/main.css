@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* formatting */
+    width: 250px;
+    height: 250px;
+    margin: 20px;
+    color: whitesmoke;
+    font-size: 1rem;
+    text-align: center;
+}
+
+#keyword {
+    background-color: blue;
+}
+
+#rgb {
+    background-color: rgb(0,0,255);
+}
+
+#rgba {
+    background-color: rgba(0,0,255,.5);
+}
+
+#hex {
+    background-color: #0000ff;
+}
+
+#hsl {
+    background-color: hsl(240,100%,50%);
+}
+
+#hsla {
+    background-color: hsla(240,100%,50%,.5);
+}
