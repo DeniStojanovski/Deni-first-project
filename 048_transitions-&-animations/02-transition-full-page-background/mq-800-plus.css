@@ -1,0 +1,88 @@
+header {
+    display: flex;
+    justify-content: space-between;
+}
+
+header div, header nav {
+    width: 300px;
+    height: 80%;
+    margin: 0 1rem;
+    color: rgba(255, 255, 255, 0.404);
+}
+
+header div {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+header div a {
+    padding: 0 1rem;
+    display: flex;
+    align-items: center;
+}
+
+header div a:hover {
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.301);
+    color: rgba(255, 145, 0, 0.616);
+}
+
+header div a i:hover {
+    color: rgba(175, 121, 19, 0.555);
+}
+
+header div h1 {
+    margin-left: .5rem;
+}
+
+header div h1:hover {
+    color: rgba(211, 142, 14, 0.555);
+}
+
+i:hover {
+    color: rgba(255, 255, 255, 0.616);
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav a {
+    padding: 0 1rem;
+}
+
+header nav:hover {
+    border-radius: 5px;
+    background-color: rgba(128, 128, 128, 0.301);
+    color: rgba(222, 184, 135, 0.699);
+}
+
+header nav i:hover {
+    color: rgba(216, 151, 66, 0.699);
+}
+
+footer {
+    display: none;
+}
+
+#idx-atf > div {
+    height: 30vh;
+}
+
+header div h1 {
+    font-size: 1rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 1.4rem;
+}
+h3 {
+    font-size: 1.4rem;
+}

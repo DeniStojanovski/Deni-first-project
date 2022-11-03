@@ -1,0 +1,82 @@
+html, body, div, footer, i, button {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font: inherit;
+    font-size: inherit;
+    color: inherit;
+}
+
+html {
+    font-family: sans-serif;
+    color: grey;
+}
+
+body > div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 8rem;
+    font-style: italic;
+    text-align: center;
+}
+
+body > footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.top-border {
+    width: 95%;
+    height: 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 2px solid gray;
+}
+
+.spinner {
+    margin: 5vh 0 5vh 10vh;
+    font-size: 5rem;
+}
+
+span {
+    margin-left: 1rem;
+}
+
+.buttons {
+    margin: 5vh 10vh 5vh 0;
+    font-size: 5rem;
+    cursor: pointer;
+}
+
+#reset-button {
+    padding: 1rem 3rem;
+    color: rgba(21, 224, 224, 0.74);
+}
+
+#save-button {
+    padding: 1rem 3rem;
+    background-color: rgba(21, 224, 224, 0.74);
+    color: white;
+}
+
+i {
+    /* animation */
+    animation-name: spinner;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    /*animation-delay: 0s;*/
+    animation-iteration-count: infinite;
+    /*animation-direction: normal;*/
+    /*animation-fill-mode: none;*/
+    /*animation-play-state: running;*/
+}
+
+@keyframes spinner {
+    0% { transform:rotate(0deg); }
+    100%   { transform:rotate(360deg);}
+}

@@ -1,0 +1,29 @@
+div {
+    width: 300px;
+    height: 300px;
+    /* center txt in div */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* formatting */
+    background-color: blue;
+    border: 4px solid black;
+    font-size: 2rem;
+    color: yellow;
+}
+
+div:hover {
+    color: blue;
+    background-color: yellow;
+}
+
+.trans {
+    transition-property: all;
+    transition-duration: 2s;
+
+    /* VARIATON */
+    /* transition-property: background-color;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+    transition-delay: 4s; */
+}
