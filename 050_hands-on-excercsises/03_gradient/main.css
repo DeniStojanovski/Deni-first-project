@@ -1,0 +1,27 @@
+html, body, button {
+    padding: 0;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+button {
+    padding: 1rem;
+    border: 2px solid hotpink;
+    border-radius: 5%;
+    font-size: 4rem;
+    font-style: italic;
+    font-family: sans-serif;
+    color: rgb(255, 255, 255);
+    background-color: rgb(159, 236, 35);
+    /* color gradient */
+    background: linear-gradient(hotpink, green, skyblue);
+}
