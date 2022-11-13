@@ -1,0 +1,360 @@
+html {
+    color: rgba(228, 215, 215, 0.767);
+}
+
+body {
+    /* background */
+    background-image: url(../img/body.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* background-color: rgba(128, 128, 128, 0.507); */
+}
+
+#atf {
+    /* format */
+    height: 100vh;
+    /* background */
+    background-image: url(../img/atf.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    /* border: 2px solid green; */
+}
+
+#atf > header {
+    /* format */
+    padding: 1rem;
+    margin: 1rem;
+    height: 3rem;
+    width: 98vw;
+    /* position */
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* background-color: rgba(128, 128, 128, 0.644); */
+    /* border: 2px solid hotpink; */
+}
+
+#atf > header > h1 {
+    /* format */
+    margin-left: 12rem;
+    /* font */
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 2rem;
+    color: rgba(189, 38, 0, 0.507);
+    /* border: 2px solid rgb(148, 168, 148); */
+}
+
+#atf > header > nav {
+    /* format */
+    /* padding: 0.3rem 1rem; */
+    margin: 0 1rem;
+    /* border: 2px solid rgb(148, 168, 148); */
+}
+
+i {
+    /* format */
+    padding: 0.5rem 1rem;
+    margin: 0 1rem;
+    text-shadow: none;
+    /* font */
+    font-size: 1.2rem;
+    /* pointer */
+    cursor: pointer;
+    /* transition */
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    /* animation */
+    animation-name: spinner;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    /*animation-delay: 0s;*/
+    animation-iteration-count: infinite;
+    /*animation-direction: normal;*/
+    /*animation-fill-mode: none;*/
+    /*animation-play-state: running;*/
+}
+
+@keyframes spinner {
+    0% { transform:rotate(0deg); }
+    100%   { transform:rotate(360deg);}
+}
+
+i:hover {
+    color: rgba(189, 38, 0, 0.507);
+}
+
+button {
+    /* format */
+    padding: 0.6rem 1rem;
+    margin: 0 1rem;
+    /* font */
+    font-family: 'Permanent Marker', cursive;
+    /* transition */
+    transition-property: all;
+    transition-duration: 1s;
+    transition-timing-function: ease;
+    /* border: 2px solid yellowgreen; */
+}
+
+button:hover {
+    color: rgba(189, 38, 0, 0.507);
+}
+
+#atf > main {
+    /* format */
+    height: 100%;
+    /* position */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* border: 2px solid yellowgreen; */
+}
+
+#atf > main > h1 {
+    /* font */
+    font-family: 'Nosifer', cursive;
+    font-size: 8rem;
+    color: rgba(189, 38, 0, 0.507);
+    /* border: 2px solid yellow; */
+    animation-name: change-color;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+
+@keyframes change-color {
+    0% { color: rgba(189, 38, 0, 0.507); }
+    100%   { color: rgba(209, 82, 50, 0.659); }
+}
+
+#atf > main > h2 {
+    /* font */
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 5rem;
+    color: rgba(189, 38, 0, 0.507);
+    /* border: 2px solid yellow; */
+}
+
+#atf > main > h3 {
+    /* font */
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+    color: rgba(189, 38, 0, 0.507);
+    /* border: 2px solid yellow; */
+}
+
+#atf > footer {
+    /* format */
+    height: 2rem;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    /* position */
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* font */
+    font-family: 'Rubik Bubbles', cursive;
+    font-size: 2rem;
+    color: rgba(189, 38, 0, 0.507);
+    /* background-color: rgba(128, 128, 128, 0.644);
+    border: 2px solid yellowgreen; */
+}
+
+#main {
+    /* format */
+    /* padding: 2rem; */
+    margin: 5rem;
+    border-left: 5px solid rgba(204, 34, 34, 0.534);
+    border-radius: 80%;
+    border-style: ridge;
+    box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.5);;
+}
+
+.religion {
+    /* format */
+    padding: 2rem;
+    margin: 5rem;
+    /* position */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 5px solid green; */
+}
+
+.img-religion {
+    margin-right: 3rem;
+    /* text-shadow: 10px 10px 10px red; */
+    box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.5);;
+    /* border: 2px solid hotpink; */
+}
+
+#main > .religion > nav {
+    text-shadow: 10px 10px 10px rgba(255, 0, 0, 0.507);
+}
+
+#main > .religion > p {
+    margin-left: 2rem;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-indent: 3rem;
+    text-shadow: 10px 10px 10px rgba(255, 0, 0, 0.493);
+    text-align: justify;
+    /* border: 5px solid yellow; */
+}
+
+.gravediggers {
+    /* format */
+    padding: 2rem;
+    margin: 5rem;
+    /* position */
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 5px solid blue; */
+}
+
+.img-gravediggers {
+    margin-left: 3rem;
+    /* text-shadow: 10px 10px 10px red; */
+    box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.5);;
+    /* border: 2px solid hotpink; */
+}
+
+#main > .gravediggers > nav {
+    text-shadow: 10px 10px 10px rgba(255, 0, 0, 0.507);
+}
+
+#main > .gravediggers > p {
+    margin-right: 2rem;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-indent: 3rem;
+    text-shadow: 10px 10px 10px rgba(255, 0, 0, 0.493);
+    text-align: justify;
+    /* border: 5px solid yellow; */
+}
+
+.cemetery {
+     /* format */
+    padding: 2rem;
+    margin: 5rem;
+    /* position */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 5px solid yellow; */
+}
+
+.img-cemetery {
+    margin-right: 3rem;
+    /* text-shadow: 10px 10px 10px red; */
+    box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.5);;
+    /* border: 2px solid hotpink; */
+}
+
+#main > .cemetery > nav {
+    text-shadow: 10px 10px 10px rgba(255, 0, 0, 0.507);
+}
+
+#main > .cemetery > p {
+    margin-left: 2rem;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-indent: 3rem;
+    text-shadow: 10px 10px 10px rgba(255, 0, 0, 0.493);
+    text-align: justify;
+    /* border: 5px solid yellow; */
+}
+
+.hell {
+    /* format */
+    padding: 2rem;
+    margin: 5rem;
+    /* position */
+    display: flex;
+    flex-flow: row-reverse;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* border: 5px solid hotpink; */
+}
+
+.img-hell {
+    margin-left: 3rem;
+    /* text-shadow: 10px 10px 10px red; */
+    box-shadow: 10px 10px 10px rgba(255, 0, 0, 0.5);;
+    /* border: 2px solid hotpink; */
+}
+
+#main > .hell > nav {
+    text-shadow: 10px 10px 10px rgba(255, 0, 0, 0.507);
+}
+
+#main > .hell > p {
+    margin-right: 2rem;
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.2rem;
+    font-style: italic;
+    text-indent: 3rem;
+    text-shadow: 10px 10px 10px rgba(255, 0, 0, 0.493);
+    text-align: justify;
+    /* border: 5px solid yellow; */
+}
+
+#footer {
+    margin: 5rem;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-top: 5px solid rgba(181, 44, 44, 0.841);
+    border-radius: 50%;
+}
+
+#footer > nav {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#footer > nav > h1 {
+    /* padding-bottom: 10rem; */
+    margin: 5rem;
+    font-family: 'Nosifer', cursive;
+    color: rgba(189, 38, 0, 0.507);
+    font-size: 1rem;
+    text-align: center;
+}
+
+#footer > nav > h2 {
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
+    color: rgba(189, 38, 0, 0.841);
+}
+
+.img1 {
+    box-shadow: 10px 10px 20px rgba(255, 0, 0, 0.5);;
+    border: 2px solid rgba(175, 43, 43, 0.794);
+}
+
+.img2 {
+    box-shadow: 10px 10px 20px rgba(255, 0, 0, 0.5);;
+    border: 2px solid rgba(175, 43, 43, 0.794);
+}
